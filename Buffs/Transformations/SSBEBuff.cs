@@ -62,8 +62,9 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 28;
-                damageMulti = 1.90f;
+                // Extreme Scaling (post-Zamasu): 150x; defense 52 x 150 = 7800
+                baseDefenceBonus = 7800;
+                damageMulti = 150.0f;
                 speedMulti = 1.35f;
             }
             else

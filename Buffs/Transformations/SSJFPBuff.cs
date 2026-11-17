@@ -62,8 +62,9 @@ namespace SSBETES.Buffs.Transformations
             }
             else
             {
-                baseDefenceBonus = 5;
-                damageMulti = 1.25f;
+                // Extreme Scaling: 8x; defense 5 x 8 = 40
+                baseDefenceBonus = 40;
+                damageMulti = 8.0f;
                 speedMulti = 1.15f;
             }
 

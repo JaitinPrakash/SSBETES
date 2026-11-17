@@ -89,8 +89,10 @@ namespace SSBETES.Buffs.Transformations
             MyPlayer myPlayer = Main.LocalPlayer.GetModPlayer<MyPlayer>();
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 6;
-                damageMulti = 0.00002f * myPlayer.GetKi() + 1.1f;
+                // Extreme Scaling proposal: multiplicative stacker x1.2 (empty ki) -> x1.5 (full ki);
+                // defense returned to baseline 15 (Extreme doc leaves Limit Breaker def unrescaled).
+                baseDefenceBonus = 15;
+                damageMulti = 1.2f + 0.3f * (myPlayer.GetKi() / (float)myPlayer.OverallKiMax());
                 speedMulti = 1.05f;
             }
             else

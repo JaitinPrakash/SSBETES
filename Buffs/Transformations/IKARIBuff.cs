@@ -65,8 +65,10 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 7;
-                damageMulti = 1.10f * modPlayer.GetIkariTimer();
+                // Extreme Scaling: 6x at IkariTimer 1.0 -> 36x at cap 2.0 (SSJFP 8x / SSJ3 40x bounds);
+                // defense = 7 x damage: 42 -> 252 (derived from baseline def 7)
+                baseDefenceBonus = (int)(210f * modPlayer.GetIkariTimer() - 168f);
+                damageMulti = 30.0f * modPlayer.GetIkariTimer() - 24.0f;
                 speedMulti = 1.70f * modPlayer.GetIkariTimer() / 2;
             }
             else

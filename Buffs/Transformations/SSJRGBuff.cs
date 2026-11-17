@@ -54,8 +54,9 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 19;
-                damageMulti = 1.50f;
+                // Extreme Scaling (Rage): 50x, faster than SSJ3FP; defense 14 x 50 = 700
+                baseDefenceBonus = 700;
+                damageMulti = 50.0f;
                 speedMulti = 1.10f;
             }
             else

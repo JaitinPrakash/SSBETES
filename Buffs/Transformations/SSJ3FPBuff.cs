@@ -78,8 +78,10 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 19;
-                damageMulti = 1.50f + (0.15f * modPlayer.GetEvilPower());
+                // Extreme Scaling: base 45x -> 60x at full EvilPower (EvilPower caps at 1.0);
+                // defense 15 x damage: 675 -> 900
+                baseDefenceBonus = (int)(675f + 225f * modPlayer.GetEvilPower());
+                damageMulti = 45.0f + 15.0f * modPlayer.GetEvilPower();
                 speedMulti = 1.10f;
             }
             else

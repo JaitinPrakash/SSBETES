@@ -69,8 +69,13 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 13;
-                damageMulti = 1.6f + modPlayer.RandomAttackBonus();
+                // Extreme Scaling (FPSSJ): roll 40x -> 60x with avg 52x.
+                // Engineered approximation of the two-tier (60% 40-56 / 40% 56-60) roll,
+                // preserving base + RandomAttackBonus() code shape:
+                //   min 52 - 12.5*1.0 = 39.5 (~SSJ3 40x); max 52 + 12.5*0.45 = 57.6; avg ~52.6
+                // Defense: 9 x 52 = 468
+                baseDefenceBonus = 468;
+                damageMulti = 52.0f + 12.5f * modPlayer.RandomAttackBonus();
                 speedMulti = 1.35f;
             }
             else

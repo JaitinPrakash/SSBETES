@@ -61,8 +61,11 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
+                // Extreme Scaling: standalone damage goes 2x (no bosses) -> ~6x at full
+                // progression (EvilMultiplier = 2.75); slope fitted ≈ (6 - 2) / 2.75 ≈ 1.45
+                // Defense kept on the lowered 2 x (1 + Evil) progression per owner decision.
                 baseDefenceBonus = (int)(2f * (1 + modPlayer.GetEvilAmount()));
-                damageMulti = 1.15f + (0.15f * modPlayer.GetEvilAmount());
+                damageMulti = 2.0f + 1.45f * modPlayer.GetEvilAmount();
                 speedMulti = 1.05f + (0.05f * modPlayer.GetEvilAmount());
             }
             else

@@ -56,8 +56,9 @@ namespace SSBETES.Buffs.Transformations
             
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 28;
-                damageMulti = 1.95f;
+                // Extreme Scaling: SSJB x KK x20 = 100 x 2.0 = 200x; defense FROZEN at SSJB's 4200
+                baseDefenceBonus = 4200;
+                damageMulti = 200.0f;
                 speedMulti = 1.35f;
             }
             else

@@ -55,8 +55,9 @@ namespace SSBETES.Buffs.Transformations
 
             if (ConfigServer.Instance.SSJTweaks)
             {
-                baseDefenceBonus = 2;
-                damageMulti = 1.15f;
+                // Extreme Scaling: False SSJ = 50% of SSJ1 (2.5x), defense 2 x 2.5 = 5
+                baseDefenceBonus = 5;
+                damageMulti = 2.5f;
                 speedMulti = 1.05f;
             }
             else

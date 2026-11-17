@@ -160,3 +160,9 @@ Clearer mod description
 *Base SSJ vanity hair (scrapped idea)
 *Dragon Ball acs now shows up on the player (scrapped idea)
 *Ancient cant use ultra forms from calamity addon (scrapped idea)
+0.6.0
+Rebalanced Stats reworked into Extreme Scaling Mode (SSJTweaks ON now selects Extreme Scaling targets)
+Extreme Scaling: SSJ Rage 50x, SSJ3FP 45->60x, Ikari 6->36x, FPSSJ ~52x avg, SSJFP 8x, FSSJ 2.5x
+Extreme Scaling: PSSB 115x, SSBE 150x, SSBKK 175x/200x (defense frozen at 4200)
+Localization: buff descriptions are now flavor text (in-game tooltips build from live stats)
+Internal: csproj modernized (net8.0, proper tModLoader references)

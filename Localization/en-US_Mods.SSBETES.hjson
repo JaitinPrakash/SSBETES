@@ -36,154 +36,82 @@ Buffs: {
 
 	BERSERKERBuff: {
 		DisplayName: Berserk
-		Description:
-			'''
-			Damage +40.00%  | Speed +30.00%
-			Defense +7
-			'''
+		Description: Uncontrolled rage you can no longer hold back.
 	}
 
 	ConBERSERKERBuff: {
 		DisplayName: Controlled Berserk
-		Description:
-			'''
-			Damage +55.00%  | Speed +35.00%
-			Defense +10
-			'''
+		Description: Corrupted ki, under your control at last.
 	}
 
 	DBEnchancedBuff: {
 		DisplayName: Dragon Ball Enchantment
-		Description:
-			'''
-			Damage +30.00%  | Speed +10.00%
-			Defense +7
-			'''
+		Description: The Dragon Balls answer their bearer.
 	}
 
 	EvilSaiyanBuff: {
 		DisplayName: Evil Saiyan
-		Description:
-			'''
-			Damage +20.00%  | Speed +5.00%
-			Defense +4
-			Ki Drain 30/s, 0/s when mastered
-			'''
+		Description: Ancient fury fit for an ancient warrior.
 	}
 
 	FPSSJBuff: {
 		DisplayName: Full Power Super Saiyan
-		Description:
-			'''
-			Damage +135.00%  | Speed +115.00%
-			Defense +9 | Ki Costs +10.00%
-			Ki Drain 90/s, 42/s when mastered
-			'''
+		Description: Instinct-level power. Unstable by nature.
 	}
 
 	FSSJBuff: {
 		DisplayName: False Super Saiyan
-		Description:
-			'''
-			Damage +35.00%  | Speed +35.00%
-			Defense +2 | Ki Costs +30.00%
-			Ki Drain 72/s, 42/s when mastered
-			'''
+		Description: Power barely contained.
 	}
 
 	IKARIBuff: {
 		DisplayName: Wrathful
-		Description:
-			'''
-			Damage +70.00%  | Speed +105.00%
-			Defense +9 | Ki Costs +70.00%
-			Ki Drain 75/s, 18/s when mastered
-			'''
+		Description: Rage that only builds with time.
 	}
 
 	PSSBBuff: {
 		DisplayName: Perfected Super Saiyan Blue
-		Description:
-			'''
-			Damage +390.00%  | Speed +390.00%
-			Defense +44 | Ki Costs +55.00%
-			Ki Drain 84/s, 84/s when mastered
-			'''
+		Description: Mastery refined to a divine edge.
 	}
 
 	SSBEBuff: {
 		DisplayName: Super Saiyan Blue Evolution
-		Description:
-			'''
-			Damage +410.00%  | Speed +435.00%
-			Defense +52 | Ki Costs +55.00%
-			Ki Drain 306/s, 162/s when mastered
-			Increased health regeneration.
-			'''
+		Description: Beyond the infinite limits.
 	}
 
 	SSBKKBuff: {
 		DisplayName: Super Saiyan Blue Kaio-Ken x10
-		Description:
-			'''
-			Damage +430.00%  | Speed +455.00%
-			Defense +47 | Ki Costs +70.00%
-			Ki Drain 264/s, 132/s when mastered
-			Consumes health in exchange for strength.
-			'''
+		Description: Blue power, amplified tenfold at a cost.
 	}
 
 	SSJ100Buff: {
 		DisplayName: Super Saiyan 100
-		Description:
-			'''
-			Damage +800.00%  | Speed +800.00%
-			Defense +99Ki Drain -600/s, -6,000/s when mastered
-			'''
+		Description: Removed from the game.
 	}
 
 	SSJFPBuff: {
 		DisplayName: Super Saiyan Full Power
-		Description:
-			'''
-			Damage +60.00%  | Speed +60.00%
-			Defense +5 | Ki Costs +15.00%
-			'''
+		Description: No wasted ki, no weakness.
 	}
 
 	SSJRGBuff: {
 		DisplayName: Super Saiyan Rage
-		Description:
-			'''
-			Damage +230.00%  | Speed +230.00%
-			Defense +14 | Ki Costs +65.00%
-			Ki Drain 150/s, 42/s when mastered
-			'''
+		Description: Trunks let rage consume him — but on his terms.
 	}
 
 	TESTBuff: {
 		DisplayName: Super TEST
-		Description: Damage +800.00% Defense +99Ki Drain -600/s, -6,000/s when mastered
+		Description: Removed from the game.
 	}
 
 	UBBuff: {
 		DisplayName: Universal Blue
-		Description:
-			'''
-			Damage +800.00%  | Speed +800.00%
-			Defense +99Ki Drain -600/s, -6,000/s when mastered
-			'''
+		Description: Removed from the game.
 	}
 
 	SSBKKx20Buff: {
 		DisplayName: Super Saiyan Blue Kaio-Ken x20
-		Description:
-			'''
-			Damage +430.00%  | Speed +455.00%
-			Defense +47 | Ki Costs +70.00%
-			Ki Drain 264/s, 132/s when mastered
-			Consumes health in exchange for strength.
-			'''
+		Description: Blue power multiplied to a fatal extreme.
 	}
 
 	XenoRegen: {
@@ -203,12 +131,12 @@ Buffs: {
 
 	LimitBreakerBuff: {
 		DisplayName: Legendary Limit Breaker
-		Description: something something
+		Description: Limits are a myth to the chosen.
 	}
 
 	SSJ3FPBuff: {
 		DisplayName: Super Saiyan 3 Full Power
-		Description: something something
+		Description: Power pushed to the brink — and past it.
 	}
 }
 
@@ -454,8 +382,8 @@ Configs: {
 		DisplayName: Server Settings
 
 		SSJTweaks: {
-			Label: Rebalanced Stats
-			Tooltip: Adjusts transformation stats to fit DBT:Rebalance
+			Label: Extreme Scaling Mode
+			Tooltip: Switch transformation bonuses to the Extreme Scaling targets
 		}
 
 		FalsePrework: {

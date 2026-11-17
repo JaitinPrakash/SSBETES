@@ -1,6 +1,6 @@
 displayName = Dragon Ball Terraria: Blue Evolution Addon
 author = GoldFix1
-version = 0.5.3
+version = 0.6.0
 modReferences = DBZGoatLib, DBZMODPORT
 includeSource = true
 sortAfter = DBZGoatLib, DBZMODPORT, CalamityMod, dbzcalamity

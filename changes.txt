@@ -1,0 +1,162 @@
+0.1
+
+Added SSJBE
+
+0.1.1
+
+-dnt remember
+
+0.1.2
+
+Added SSJBKK
+
+0.1.2.1
+
+Fixing SSJBKK bugs
+
+0.1.3
+
+Added FSSJ
+
+0.1.3.1
+
+Fixed FSSJ stack
+Fixed SSJBKK aura
+Added colored eyes
+
+0.1.4
+
+Added Ikari/Wrathful 
+Added Perfected Super Saiyan Blue
+Changed SSJBE Aura
+Prodigy can't use SSJBKK now
+Fixed FSSJ eyes(hair)
+
+0.1.4.1
+
+Changed Blue forms unlock conditions
+
+0.1.5
+
+A bit recolored SSBKK Aura
+Rebalanced blue forms
+Added Crimson Mask
+Added Hair Vanities for 1 web
+
+0.1.5.1
+
+Changed Crimson Mask sprite
+Fixed forms unlocked icon in panel
+
+0.2
+
+---Added Majin Trait
+Added Ancient Trait
+Added rebalanced stats
+Added Evil Saiyan (Ancient) and Berserker (Other)
+Added FPSSJ (Legendary) and SSJFP (Other)
+Added SSJ Rage and ---Sword of Hope
+Added keybind for transforming ---to addon forms
+---Added Final Explosion
+---Added Dark Dragon Ball accessory
+---Reworked Wrathful
+Players hair now transparent when transformed
+---Changed textures
+Changed forms unlock conditions
+Fixed items names
+Forms can be unlocked without items
+---SSBKK now adds reddish filter on screen
+
+0.2.1
+
+1.4.4 port
+
+0.2.2
+
+Added Controlled Berserk
+Added Enchanted Dragon Ball accessory
+Added Ki Scroll and Ki Fragment
+bug fixes for 1.4.3
+(cant use ssbkk, everyone gets wrathful)
+
+0.2.3
+
+1.4.4 update port + bug fixes 
+(world cant go hardmode, description, cant get rage)
+
+0.3
+
+Added Time Breaker Mask
+Added SSBKKx20
+Fixed some issues
+Removed controlled berserker from the menu
+
+0.4
+
+Reworked Wrathful and FPSSJ
+Fixed Evil Saiyan multipliers
+Locked god forms from ancient
+Fixed SSRage obtaining
+
+0.4.1
+
+Removed fpssj unlock message
+Changed rages particles
+Added descriptions to forms
+Rebalanced wrathful and fpssj
+increased health regen for ssbe
+
+0.4.2
+
+?
+
+0.5
+
+Replaced Power up key witn DBT's bind
+Fixed price for hair 
+Optimized code (a lil bit)
+removed universel blue, ssj100 and test form
+ssbkk now requires kaioken
+
+0.5.1
+
+Fixed not working FSSJ and SSJFP
+Added some effects to SSBE aura
+
+0.5.2
+
+Fixed unintented stack of forms
+Fixed FPSSJ issues (not going on cd and going to base instead of using the form)
+Fixed eye color bug
+Fixed ki scroll not working
+
+0.5.2.1
+
+Fixed not going from Ikari to FPSSJ
+Changed form panel name
+
+0.5.3
+
+Ancient trait now properly shows up as a buff
+Fixed ancient trait hair and eye color bug
+Fixed power up bind
+Balance tweaks (+bug fixes on that part)
+Forms dont allow to use beams infinitely now (one of the balance bug fix)
+Ki Fragment now gives more ki to legendary
+Fixed mastered forms text constantly appearing in mp and single 
+Brought back Berserker form
+Limit Breaker form for legendary (inspired by limit breaker addon from 1.4.3, attempt at keeping legendary relevant)
+SSJ3FP ~moonlord form for ancient
+Updated form visuals slightly (Changed SSBKK&SSBE Auras, Added lightning and transform effect to SSBKK&SSBE, SSJFP has proper lighting, SSRage has unlock animation)
+Ancient cant pick up godly spirit now
+Config touch ups (aura config now adds it instead removing)
+Added scroll to switch from SSBE to SSBKK, changed obtain method
+Dragon Ball accessory improvement (form goes away when unequipped, form appears only when transforming)
+Updated form unlock sprites
+Clearer in-game hints
+FSSJ rework
+Clearer mod description
+*Added final explosion (scrapped idea)
+*Base SSJ vanity hair (scrapped idea)
+*Dragon Ball acs now shows up on the player (scrapped idea)
+*Ancient cant use ultra forms from calamity addon (scrapped idea)

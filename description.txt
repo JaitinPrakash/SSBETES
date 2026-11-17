@@ -1,0 +1,116 @@
+DON'T ASK QUESTIONS ABOUT THIS ADDON IN THE DBT SERVER THEY HAVE NOTHING TO DO WITH THIS MOD!!!
+IF YOU HAVE ANY, FEEL FREE TO ASK THEM IN TBS SERVER, LINK BELOW. 
+
+[hr][/hr]
+
+[h2]What does it add?[/h2]
+
+-A bunch of extra forms-
+-New items, including Ki Scroll and Ki Fragment-
+-New Ancient Trait-
+
+[h2]Items[/h2]
+
+-Fruit of Might-
+*Drops from Eye of Cthulhu
+*Increases Max HP by 50 and Max Ki by 500
+
+-Enchanted Dragon Ball (Accessory)-
+*Craft: FourStarDB, 'World Evil' Powder, Fruit of Might
+*Gives exclusive power up, increases HP, increases Max Ki and Ki damage
+
+-Crimson Mask-
+*Drops from Plantera
+*Increases your hp by 100 and increases charge speed
+*Decreases Max Ki by 2500
+*Gives other bonuses after lethal hit 
+
+-Skilled Ki Scroll-
+*Craft: AngerKiCrystal, Soul of Sight, Antlion Mandible
+*Consumable which increases charge speed
+
+-Skilled Ki Fragment-
+*Drops from Golem bag
+*Consumable which increases Max Ki by 1000
+
+-Transformation Hairs-
+*Craft: SpiderWeb
+*Vanity hairs, have fun
+
+[h2]New Trait[/h2]
+
+--Ancient Trait--
+
+If you got ancient trait, your eyes should turn red and Ki ball on the bar should become black (if you have new ki bar config turned off, your ki bar should have black-red gradient) 
++ This trait gives 5 passive defense to the player
++ Gives access to exclusive Evil Saiyan form, which can be stacked on any other form
+- Restricts access to god forms, if you try to use them, they will automatically turn off, godly spirit can't be picked up
+
+[h2]Transformations and how to obtain them[/h2]
+
+False Super Saiyan:
+Can't be permanently unlocked, if Eye Of Cthulhu is defeated in this world and SSJ1 isn't unlocked,
+you can transform into it with a small chance while fighting any boss.
+(You can bring this form back onto the panel with config, it will also bring back old unlock condition,
+which is getting under half HP while fighting Eater Of Worlds / Brain Of Cthulhu)
+
+Evil Saiyan:
+Exclusive to ancient trait, you can get this form by consuming the Fruit of Might that drops from the Eye Of Cthulhu,
+it gives 1.5k extra ki when used and its damage upgrades after killing certain bosses.
+~ +20% (Eye Of Cthulhu) -> +30% (Skeletron) -> +50% (Plantera) -> +75% (Moonlord) ~
+
+Berserker:
+Can't be permanently unlocked, you can have this form only if you aren't an ancient saiyan and if you have Evil Saiyan user nearby.
+
+Super Saiyan Full Power:
+Unlocks after mastering Super Saiyan 1, has almost no Ki consumption, while retaining all of SSJ1's benefits.
+
+Wrathful:
+Exclusive to legendary trait, unclocks after defeating the Wall Of Flesh, each 15 seconds Wrathful gets 'Rage Burst', 
+it increases form damage by 10%, these 'Bursts' can be stacked up to 10 times (takes around 2,5 minutes), 
+once you reach this limit your form will change to Full Power Super Saiyan.
+
+Full Power Super Saiyan:
+Can't be permanently unlocked, this form has unstable(random) ki drain, but in exchange it gives you 3000 extra Ki and 100 HP, 
+you can access it only by using Wrathful, can be sustained only for 45 seconds, when this timer ends, form will have 3 minute cooldown/
+
+Legendary Limit Break:
+Exclusive to legendary trait, unlocks the moment you get Legendary Super Saiyan 2, this form gives good defense,
+but its damage scales with your Ki, you can't use this form for more than 10 seconds, after that you will get 50 seconds cooldown.
+Time limit and Cooldown can be increased/shortened by mastering this form.
+(Inspired by Limit Break addon from 1.4.3, you can use this form to keep legendary more relevant in post MoonLord)
+
+Super Saiyan Rage:
+Legendary and ancient saiyans can't access this form, unlocks after defeating Slime Queen and Cultist.
+
+Super Saiyan 3 Full Power:
+Exclusive to ancient trait, unlocks after absorbing evil spirit from Lunar Towers, this form can increase its strength by extra 40%
+if player lands Ki attacks, it also restores players Ki, if you have less than 35% of Max Ki you will start to lose HP.
+
+Perfected Super Saiyan Blue:
+Unlocks after mastering Super Saiyan Blue, is just a better version of Super Saiyan Blue, nothing more to say.
+
+Super Saiyan Blue Evolution / Super Saiyan Blue Kaio-Ken:
+After mastering SSJB you get a choice of these forms, if you transform into one, the second one will be locked, so be cautious,
+you can remove the lock after using scroll that you can buy from the merchant, if you master one of the forms it will no longer lock another form.
+
+Super Saiyan Blue Evolution gives most defense out of all blue forms, it has better Ki drain and HP regeneration (HP regeneration increases when you charge your ki), 
+because of other benefits this form gives, it only has slightly more damage than SSRose.
+
+Super Saiyan Blue Kaio-Ken(x10) gives most damage out of all blue forms, but it gives less defense in exchange and has expensive ki drain, 
+becomes slightly better after mastering and unlocking SSBKKx20.
+
+[hr][/hr]
+
+*Some things to keep in mind
+-Due to form library using inaccurate calculations, form ki cost shows the wrong number, for example, perfected blue shows +155% ki cost, but its actually +55%, it aplies to only addons forms, to get true ki cost just subtract 100% from given number
+-The mod is no longer being worked on due multiple reasons i wont disclose here, i might fix a game breaking bug if such appears, but no promisses on that
+-Highly recommed to use it with calamity addon, form amount will feel a little less bloated and you will have enough time to try each one
+
+[h1][url=https://discord.gg/NqUvkJQWuA]Dragon Ball Terraria Server![/url][/h1]
+
+[h1][url=https://discord.gg/whNCn3Dvuw]Terraria Ball Super Server![/url][/h1]
+
+Code can be freely extracted in tModLoader
+
+Sprites Edited/Based on Dragon Ball Terraria's Sprites. Credit to the original team.
